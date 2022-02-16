@@ -124,6 +124,7 @@ function Columns2() {
                 <div className={styles.columnData1b}>
                 <label>Stage of Bussiness:</label>
                     <select name="bussiness_stage" onChange={(e) => handleChange("section1", e)} >
+                    <option value="" >Select Business type</option>
                     <option value="Start-up">Start-up</option>
                     <option value="Scale-up">Scale-up</option>
                     </select>
@@ -154,7 +155,8 @@ function Columns2() {
 
                 <div className={styles.columnData3b}>
                     <label>Offered to:</label>
-                    <select onChange={(e) => handleChange("section3", e)} name="offered_to">
+                                <select onChange={(e) => handleChange("section3", e)} name="offered_to">
+                                    <option value="">Select Offer type</option>
                         <option value="End Customers">End Customers</option>
                         <option value="WholeSalers">WholeSalers</option>
                         <option value="Distributors">Disributors</option>
@@ -202,7 +204,8 @@ function Columns2() {
 
                 <div className={styles.columnData7}>
                     <label>Skill training:</label>
-                    <select onChange={(e) => handleChange("section7", e)} name="skill_training">
+                            <select onChange={(e) => handleChange("section7", e)} name="skill_training">
+                                <option value="">Select training type</option>
                         <option value="No formal skill training">No formal skill training</option>
                         <option value="Has formal skill training and certifiate">Has formal skill training and certifiate</option>
                         </select>
@@ -258,7 +261,8 @@ function Columns2() {
                 <div className={styles.columnData9}>
                 <div className={styles.columnData9a}>
                     <label>Establishment type:</label> 
-                    <select onChange={(e) => handleChange("section9", e)} name="establishment_type">
+                                <select onChange={(e) => handleChange("section9", e)} name="establishment_type">
+                                    <option  value="">Select type</option>
                         <option value="Factory">Factory</option>
                         <option value="Mill">Mill</option>
                         <option value="Stall">Stall</option>
@@ -282,7 +286,8 @@ function Columns2() {
 
                 <div className={styles.columnData9c}>
                     <label>Locality of business:</label>
-                    <select onChange={(e) => handleChange("section9", e)} name="business_locality">
+                                <select onChange={(e) => handleChange("section9", e)} name="business_locality">
+                                    <option value="">Select Locality</option>
                         <option value="Urban">Urban</option>
                         <option value="Rural">Rural</option>
                         <option value="Semi-Urban">Semi-Urban</option>
@@ -297,7 +302,8 @@ function Columns2() {
 
                <div className={styles.columnData9d}>
                     <label>Ownership of infrastructure:</label>
-                    <select onChange={(e) => handleChange("section9", e)} name="infra_ownership">
+                                <select onChange={(e) => handleChange("section9", e)} name="infra_ownership">
+                                    <option value="">Select Infrastructure type</option>
                         <option value="Rented">Rented</option>
                         <option value="Leased">Leased</option>
                         <option value="Self-Owned">Self-Owned</option>
@@ -350,7 +356,8 @@ function Columns2() {
                     
                 <div className={styles.columnData12}>
                     <label>Market Research:</label>
-                    <select onChange={(e) => handleChange("section12", e)} name="market_research">
+                            <select onChange={(e) => handleChange("section12", e)} name="market_research">
+                                <option value="">Select Research type</option>
                         <option >Not Conducted</option>
                         <option value="Market Research has been conducted">Market Research has been conducted</option>
                         </select>
@@ -363,7 +370,8 @@ function Columns2() {
 
                 <div className={styles.columnData13}>
                     <label>Primary market:</label>
-                    <select onChange={(e) => handleChange("section13", e)} name="primary_market">
+                            <select onChange={(e) => handleChange("section13", e)} name="primary_market">
+                                <option value="">Select Market Type</option>
                         <option value="Local">Local</option>
                         <option value="Regional">Regional</option>
                         <option value="National">National</option>
@@ -387,7 +395,8 @@ function Columns2() {
 
                 <div className={styles.columnData15}>
                     <label>Seasons of high sales:</label>
-                    <select onChange={(e) => handleChange("section15", e)} name="seasonality">
+                            <select onChange={(e) => handleChange("section15", e)} name="seasonality">
+                                <option value="">Select Seasons type</option>
                         <option value="Consistant sales across all sales">Consistant sales across all sales</option>
                         <option value="Higher sales in festive season">Higher sales in festive season</option>
                         <option value="Higher sales in copper/cultivation season">Higher sales in copper/cultivation season</option>
@@ -401,7 +410,8 @@ function Columns2() {
 
                 <div className={styles.columnData16}>
                     <label>Competition:</label>
-                    <select onChange={(e) => handleChange("section16", e)} name="competition">
+                            <select onChange={(e) => handleChange("section16", e)} name="competition">
+                                <option value="">Select Competition type</option>
                         <option value="No Similar goods/service providers in this locality">No Similar goods/service providers in this locality</option>
                         <option value="Only a few similar goods/service providers in this locality">Only a few similar goods/service providers in this locality</option>
                         <option value="Many Similar goods/service providers in this locality">Many Similar goods/service providers in this locality</option>
