@@ -1,0 +1,754 @@
+.MainData {
+  width: 100%;
+  height: 100%;
+  /* background-color: skyblue; */
+  /* background-image: url("C:\Users\HP\Desktop\letEndorse\endorse\images\orange14.jpg"); */
+  background-image: url("../../images/orange14.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h2 {
+  text-align: justify;
+  font-size: larger;
+}
+/* h1 {
+  font-family: sans-serif;
+  margin: auto;
+  color: #228b22;
+  text-align: center;
+  font-size: 30px;
+  max-width: 600px;
+  position: relative;
+}
+h1:before {
+  content: "";
+  display: block;
+  width: 130px;
+  height: 5px;
+  background: #191970;
+  left: 0;
+  top: 50%;
+  position: absolute;
+}
+h1:after {
+  content: "";
+  display: block;
+  width: 130px;
+  height: 5px;
+  background: #191970;
+  right: 0;
+  top: 50%;
+  position: absolute;
+} */
+
+.Headings {
+  display: flex;
+  gap: 650px;
+  align-items: center;
+  justify-content: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  /* background-image: url("C:\Users\HP\Desktop\letEndorse\endorse\images\orange14.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; */
+}
+
+fieldset {
+  border-radius: 20px;
+}
+
+.endorseImage {
+  height: 100px;
+  width: 300px;
+}
+
+.Introduction {
+  width: 80%;
+  height: 80%;
+  /* background-color: skyblue; */
+  /* background-image: url("C:\Users\HP\Desktop\letEndorse\endorse\images\orange2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; */
+  /* margin-bottom: 50px; */
+  padding: 0% 10% 0% 10%;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+legend {
+  /* text-indent: 20px; */
+  text-align: left;
+  margin-left: 25px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.IntroPara {
+  /* padding: 25px; */
+  /* color: darkcyan; */
+  color: maroon;
+  /* text-align: center; */
+}
+
+.Location {
+  width: 80%;
+  height: 80%;
+  /* background-color: skyblue; */
+  margin-bottom: 20px;
+  padding: 0% 10% 0% 10%;
+  /* background-image: url("C:\Users\HP\Desktop\letEndorse\endorse\images\orange.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; */
+}
+
+.LocationPara {
+  padding: 25px;
+  color: maroon;
+}
+
+.TargetMarket {
+  width: 80%;
+  height: 80%;
+  /* background-color: skyblue; */
+  /* margin-bottom: 50px; */
+  padding: 0% 10% 0% 10%;
+  /* background-image: url("C:\Users\HP\Desktop\letEndorse\endorse\images\orange.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; */
+  margin-bottom: 20px;
+}
+
+.TargetPara {
+  padding: 25px;
+  color: maroon;
+}
+
+.ScalingUp {
+  width: 80%;
+  height: 80%;
+  /* background-color: skyblue; */
+  margin-bottom: 20px;
+  padding: 0% 10% 0% 10%;
+  /* background-image: url("C:\Users\HP\Desktop\letEndorse\endorse\images\orange.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; */
+}
+
+.ScalePara {
+  padding: 25px;
+  color: maroon;
+}
+
+.columnData1 {
+  /* border: 2px solid black; */
+  /* border-bottom: 1px solid black; */
+  /* border-top: 1px solid black; */
+  width: 100%;
+  height: 240px;
+}
+
+.columnData1a {
+  display: grid;
+  grid-template-columns: repeat(3, 30%);
+  grid-gap: 5%;
+  width: 100%;
+  height: 80px;
+  align-items: center;
+}
+
+.columnData1a > input {
+  height: 25px;
+  width: 250px;
+  border-radius: 5px;
+  border: 2px solid rgb(88, 84, 84);
+}
+
+.columnData1a > label {
+  margin-right: 155px;
+  font-weight: 600;
+}
+
+.columnData1b {
+  display: grid;
+  grid-template-columns: repeat(3, 30%);
+  grid-gap: 5%;
+  /* border: 2px solid red; */
+  width: 100%;
+  height: 80px;
+  align-items: center;
+}
+
+.columnData1b > select {
+  height: 30px;
+  width: 256px;
+  border-radius: 5px;
+  border: 2px solid rgb(88, 84, 84);
+}
+
+.columnData1b > label {
+  margin-right: 70px;
+  font-weight: 600;
+}
+
+.columnData1c {
+  display: grid;
+  grid-template-columns: repeat(3, 30%);
+  grid-gap: 5%;
+  width: 100%;
+  height: 80px;
+  align-items: center;
+}
+
+.columnData1c > input {
+  height: 25px;
+  width: 250px;
+  border-radius: 5px;
+  border: 2px solid rgb(88, 84, 84);
+}
+
+.columnData1c > label {
+  margin-right: 100px;
+  font-weight: 600;
+}
+
+.columnData2 {
+  display: grid;
+  grid-template-columns: repeat(3, 30%);
+  grid-gap: 5%;
+  /* border: 2px solid black; */
+  /* border-bottom: 1px solid black; */
+  width: 100%;
+  height: 80px;
+  align-items: center;
+}
+
+.columnData2 > input {
+  height: 25px;
+  width: 250px;
+  border-radius: 5px;
+  border: 2px solid rgb(88, 84, 84);
+}
+
+.columnData2 > label {
+  margin-right: 45px;
+  font-weight: 600;
+}
+
+.columnData3 {
+  /* border: 2px solid black; */
+  /* border-bottom: 1px solid black; */
+  width: 100%;
+  height: 160px;
+}
+
+.columnData3a {
+  display: grid;
+  grid-template-columns: repeat(3, 30%);
+  grid-gap: 5%;
+  /* border: 2px solid black; */
+  width: 100%;
+  height: 80px;
+  align-items: center;
+}
+
+.columnData3a > input {
+  height: 25px;
+  width: 250px;
+  border-radius: 5px;
+  border: 2px solid rgb(88, 84, 84);
+}
+
+.columnData3a > label {
+  margin-right: 70px;
+  font-weight: 600;
+}
+
+.columnData3b {
+  display: grid;
+  grid-template-columns: repeat(3, 30%);
+  grid-gap: 5%;
+  /* border: 2px solid black; */
+  width: 100%;
+  height: 80px;
+  align-items: center;
+}
+
+.columnData3b > select {
+  height: 30px;
+  width: 256px;
+  border-radius: 5px;
+  border: 2px solid rgb(88, 84, 84);
+}
+
+.columnData3b > label {
+  margin-right: 120px;
+  font-weight: 600;
+}
+
+.columnData4 {
+  display: grid;
+  grid-template-columns: repeat(3, 30%);
+  grid-gap: 5%;
+  /* border: 2px solid black; */
+  /* border-bottom: 1px solid black; */
+  width: 100%;
+  height: 80px;
+  align-items: center;
+}
+
+.columnData4 > input {
+  height: 25px;
+  width: 250px;
+  border-radius: 5px;
+  border: 2px solid rgb(88, 84, 84);
+}
+
+.columnData4 > label {
+  margin-right: 40px;
+  font-weight: 600;
+}
+.columnData5 {
+  display: grid;
+  grid-template-columns: repeat(3, 30%);
+  grid-gap: 5%;
+  /* border: 2px solid black; */
+  /* border-bottom: 1px solid black; */
+  width: 100%;
+  height: 80px;
+  align-items: center;
+}
+
+.columnData5 > input {
+  height: 25px;
+  width: 250px;
+  border-radius: 5px;
+  border: 2px solid rgb(88, 84, 84);
+}
+
+.columnData5 > label {
+  margin-right: 45px;
+  font-weight: 600;
+}
+
+.columnData6 {
+  display: grid;
+  grid-template-columns: repeat(3, 30%);
+  grid-gap: 5%;
+  /* border: 2px solid black; */
+  /* border-bottom: 1px solid black; */
+  width: 100%;
+  height: 80px;
+  align-items: center;
+}
+
+.columnData6 > input {
+  height: 25px;
+  width: 250px;
+  border-radius: 5px;
+  border: 2px solid rgb(88, 84, 84);
+}
+
+.columnData6 > label {
+  margin-left: 15px;
+  font-weight: 600;
+}
+
+.columnData7 {
+  display: grid;
+  grid-template-columns: repeat(3, 30%);
+  grid-gap: 5%;
+  /* border: 2px solid black; */
+  /* border-bottom: 1px solid black; */
+  width: 100%;
+  height: 80px;
+  align-items: center;
+}
+
+.columnData7 > select {
+  height: 30px;
+  width: 256px;
+  border-radius: 5px;
+  border: 2px solid rgb(88, 84, 84);
+}
+
+.columnData7 > label {
+  margin-right: 95px;
+  font-weight: 600;
+}
+.columnData8 {
+  display: grid;
+  grid-template-columns: repeat(3, 30%);
+  grid-gap: 5%;
+  /* border: 2px solid black; */
+  /* border-bottom: 1px solid black; */
+  width: 100%;
+  height: 80px;
+  align-items: center;
+}
+
+.columnData8 > select {
+  height: 60px;
+  width: 256px;
+  border-radius: 5px;
+  border: 2px solid rgb(88, 84, 84);
+}
+
+.columnData8 > label {
+  margin-left: 10px;
+  font-weight: 600;
+}
+
+.columnData9 {
+  /* border: 2px solid black; */
+  /* border-top: 1px solid black; */
+  /* border-bottom: 1px solid black; */
+  width: 100%;
+  height: 400px;
+}
+
+.columnData9a {
+  display: grid;
+  grid-template-columns: repeat(3, 30%);
+  grid-gap: 5%;
+  /* border: 2px solid black; */
+  width: 100%;
+  height: 80px;
+  align-items: center;
+}
+
+.columnData9a > select {
+  height: 30px;
+  width: 256px;
+  border-radius: 5px;
+  border: 2px solid rgb(88, 84, 84);
+}
+
+.columnData9a > label {
+  margin-right: 50px;
+  font-weight: 600;
+}
+
+.columnData9b {
+  display: grid;
+  grid-template-columns: repeat(3, 30%);
+  grid-gap: 5%;
+  /* border: 2px solid black; */
+  width: 100%;
+  height: 80px;
+  align-items: center;
+}
+
+.columnData9b > input {
+  height: 25px;
+  width: 250px;
+  border-radius: 5px;
+  border: 2px solid rgb(88, 84, 84);
+}
+
+.columnData9b > label {
+  margin-right: 60px;
+  font-weight: 600;
+}
+
+.columnData9c {
+  display: grid;
+  grid-template-columns: repeat(3, 30%);
+  grid-gap: 5%;
+  /* border: 2px solid black; */
+  width: 100%;
+  height: 80px;
+  align-items: center;
+}
+
+.columnData9c > select {
+  height: 30px;
+  width: 256px;
+  border-radius: 5px;
+  border: 2px solid rgb(88, 84, 84);
+}
+
+.columnData9c > label {
+  margin-right: 45px;
+  font-weight: 600;
+}
+
+.columnData9d {
+  display: grid;
+  grid-template-columns: repeat(3, 30%);
+  grid-gap: 5%;
+  /* border: 2px solid black; */
+  width: 100%;
+  height: 80px;
+  align-items: center;
+}
+
+.columnData9d > select {
+  height: 30px;
+  width: 256px;
+  border-radius: 5px;
+  border: 2px solid rgb(88, 84, 84);
+}
+
+.columnData9d > label {
+  margin-left: 10px;
+  font-weight: 600;
+}
+
+.columnData9e {
+  display: grid;
+  grid-template-columns: repeat(3, 30%);
+  grid-gap: 5%;
+  /* border: 2px solid black; */
+  width: 100%;
+  height: 80px;
+  align-items: center;
+}
+
+.columnData9e > input {
+  height: 25px;
+  width: 250px;
+  border-radius: 5px;
+  border: 2px solid rgb(88, 84, 84);
+}
+
+.columnData9e > label {
+  margin-right: 155px;
+  font-weight: 600;
+}
+
+.columnData10 {
+  display: grid;
+  grid-template-columns: repeat(3, 30%);
+  grid-gap: 5%;
+  /* border: 2px solid black; */
+  /* border-bottom: 1px solid black; */
+  width: 100%;
+  height: 80px;
+  align-items: center;
+}
+
+.columnData10 > input {
+  height: 25px;
+  width: 250px;
+  border-radius: 5px;
+  border: 2px solid rgb(88, 84, 84);
+}
+
+.columnData10 > label {
+  margin-right: 50px;
+  font-weight: 600;
+}
+
+.columnData11 {
+  display: grid;
+  grid-template-columns: repeat(3, 30%);
+  grid-gap: 5%;
+  /* border: 2px solid black; */
+  /* border-bottom: 1px solid black; */
+  width: 100%;
+  height: 80px;
+  align-items: center;
+}
+
+.columnData11 > select {
+  height: 60px;
+  width: 256px;
+  border-radius: 5px;
+  border: 2px solid rgb(88, 84, 84);
+}
+
+.columnData11 > label {
+  margin-left: -35px;
+  font-weight: 600;
+}
+
+.columnData12 {
+  display: grid;
+  grid-template-columns: repeat(3, 30%);
+  grid-gap: 5%;
+  /* border: 2px solid black; */
+  /* border-bottom: 1px solid black; */
+  width: 100%;
+  height: 80px;
+  align-items: center;
+}
+
+.columnData12 > select {
+  height: 30px;
+  width: 256px;
+  border-radius: 5px;
+  border: 2px solid rgb(88, 84, 84);
+}
+
+.columnData12 > label {
+  margin-right: 60px;
+  font-weight: 600;
+}
+
+.columnData13 {
+  display: grid;
+  grid-template-columns: repeat(3, 30%);
+  grid-gap: 5%;
+  /* border: 2px solid black; */
+  /* border-bottom: 1px solid black; */
+  width: 100%;
+  height: 80px;
+  align-items: center;
+}
+
+.columnData13 > select {
+  height: 30px;
+  width: 256px;
+  border-radius: 5px;
+  border: 2px solid rgb(88, 84, 84);
+}
+
+.columnData13 > label {
+  margin-right: 70px;
+  font-weight: 600;
+}
+
+.columnData14 {
+  display: grid;
+  grid-template-columns: repeat(3, 30%);
+  grid-gap: 5%;
+  /* border: 2px solid black; */
+  /* border-bottom: 1px solid black; */
+  width: 100%;
+  height: 80px;
+  align-items: center;
+}
+
+.columnData14 > input {
+  height: 25px;
+  width: 250px;
+  border-radius: 5px;
+  border: 2px solid rgb(88, 84, 84);
+}
+
+.columnData14 > label {
+  margin-right: 40px;
+  font-weight: 600;
+}
+
+.columnData15 {
+  display: grid;
+  grid-template-columns: repeat(3, 30%);
+  grid-gap: 5%;
+  /* border: 2px solid black; */
+  /* border-bottom: 1px solid black; */
+  width: 100%;
+  height: 80px;
+  align-items: center;
+}
+
+.columnData15 > select {
+  height: 30px;
+  width: 256px;
+  border-radius: 5px;
+  border: 2px solid rgb(88, 84, 84);
+}
+
+.columnData15 > label {
+  margin-right: 30px;
+  font-weight: 600;
+}
+
+.columnData16 {
+  display: grid;
+  grid-template-columns: repeat(3, 30%);
+  grid-gap: 5%;
+  /* border: 2px solid black; */
+  /* border-bottom: 1px solid black; */
+  width: 100%;
+  height: 80px;
+  align-items: center;
+}
+
+.columnData16 > select {
+  height: 30px;
+  width: 256px;
+  border-radius: 5px;
+  border: 2px solid rgb(88, 84, 84);
+}
+
+.columnData16 > label {
+  margin-right: 90px;
+  font-weight: 600;
+}
+
+.columnData17 {
+  display: grid;
+  grid-template-columns: repeat(3, 30%);
+  grid-gap: 5%;
+  /* border: 2px solid black; */
+  /* border-bottom: 1px solid black; */
+  width: 100%;
+  height: 80px;
+  align-items: center;
+}
+
+.columnData17 > input {
+  height: 25px;
+  width: 250px;
+  border-radius: 5px;
+  border: 2px solid rgb(88, 84, 84);
+}
+
+.columnData17 > label {
+  margin-right: 70px;
+  font-weight: 600;
+}
+
+.columnData18 {
+  display: grid;
+  grid-template-columns: repeat(3, 30%);
+  grid-gap: 5%;
+  /* border: 2px solid black; */
+  /* border-bottom: 1px solid black; */
+  width: 100%;
+  height: 80px;
+  align-items: center;
+}
+
+.columnData18 > select {
+  height: 60px;
+  width: 256px;
+  border-radius: 5px;
+  border: 2px solid rgb(88, 84, 84);
+}
+
+.columnData18 > label {
+  margin-right: 50px;
+  font-weight: 600;
+}
+
+.columnData19 {
+  display: grid;
+  grid-template-columns: repeat(3, 30%);
+  grid-gap: 5%;
+  /* border: 2px solid black; */
+  /* border-top: 1px solid black;
+  border-bottom: 1px solid black; */
+  width: 100%;
+  height: 100px;
+  align-items: center;
+}
+
+.columnData19 > select {
+  height: 60px;
+  width: 256px;
+  border-radius: 5px;
+  border: 2px solid rgb(88, 84, 84);
+}
+
+.columnData19 > label {
+  margin-left: 40px;
+  font-weight: 600;
+}
